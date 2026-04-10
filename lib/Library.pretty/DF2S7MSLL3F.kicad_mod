@@ -1,0 +1,180 @@
+(footprint "DF2S7MSLL3F"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "1-1AL1A_2025-1.1")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "REF**"
+		(at -0.02 -1.36 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "68e5a236-c0b3-452e-9df8-73bf92fb7ced")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DF2S7MSL"
+		(at 0.05 2.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "69f4221a-8714-416f-beb9-be808db8754d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PTVS5V0Z1USKP.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d2c161ef-4f23-4d92-aba8-d848e1b84977")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "5V, 2000W TVS unidirectional diode, DSN1608-2"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98cd351d-509b-4e4a-aa64-e0e78b44c13e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.575 -0.405)
+		(end -0.575 0.405)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a193af5c-6a68-430e-ad28-51997793dad7")
+	)
+	(fp_line
+		(start -0.575 -0.405)
+		(end -0.225 -0.405)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23e2d3f9-4f6a-4b1e-b108-82bb93edb097")
+	)
+	(fp_line
+		(start -0.575 0.405)
+		(end -0.225 0.405)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bd95a6d6-ae7f-4ab7-95cb-f6499b16768d")
+	)
+	(fp_rect
+		(start -0.4 -0.25)
+		(end 0.4 0.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "900cf458-0091-4b24-9682-23605e0b2b79")
+	)
+	(fp_line
+		(start -0.31 -0.16)
+		(end -0.31 0.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "af05284d-ad93-4c66-ae68-be0f3a3c085c")
+	)
+	(fp_line
+		(start -0.31 0.16)
+		(end 0.31 0.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "24530f60-9301-4fb3-b3da-14042fe6b2aa")
+	)
+	(fp_line
+		(start 0.31 -0.16)
+		(end -0.31 -0.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9d5bc845-ed53-4f5b-ae11-e90614b3ad4b")
+	)
+	(fp_line
+		(start 0.31 0.16)
+		(end 0.31 -0.16)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "614235db-8b81-4301-b240-a8a138e112dc")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.05 2.2 0)
+		(layer "F.Fab")
+		(uuid "3b78b16a-ac2a-4e24-9663-d185042f4b88")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.2 0)
+		(size 0.26 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_mask_margin 0.02)
+		(uuid "c66af23e-87cc-4564-b1d1-bfdd62fee59f")
+	)
+	(pad "2" smd roundrect
+		(at 0.2 0)
+		(size 0.26 0.32)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(solder_mask_margin 0.02)
+		(zone_connect 1)
+		(thermal_bridge_width 0.5)
+		(thermal_gap 0.3)
+		(uuid "18260f33-a11d-4985-992d-69a0d2b5c51f")
+	)
+	(embedded_fonts no)
+	(model "C:\\KiCad\\library\\SamacSys_Parts.3dshapes\\DF2S7MSL,L3F.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -90)
+		)
+	)
+)

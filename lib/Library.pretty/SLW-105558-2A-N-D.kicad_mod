@@ -1,0 +1,135 @@
+(footprint "SLW-105558-2A-N-D"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SW")
+	(tags "switch, sw")
+	(property "Reference" "REF**"
+		(at -0.03 -4.91 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e92f00ca-54b7-43d2-b0d7-acdb085ae8fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SW"
+		(at 0 -9.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8c59c7c9-68dd-455e-8b3d-ff9c2776c40d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -10.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e5c12e8-3529-4a6d-ab7a-fa9f5519dd88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Switch, dual pole double throw, separate symbols"
+		(at 0 -10.65 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "76a018f3-ae6d-4808-8f92-437977028e1b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.25 -2.9)
+		(end 5.25 2.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7c922a29-77b7-4f35-b266-f1c8993e08ad")
+	)
+	(fp_rect
+		(start -5.75 -3.5)
+		(end 5.75 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e3c48750-668a-48ac-9bed-f495928cae3c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -8.15 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e666d6eb-5f2c-4f65-bb45-88da682104df")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at -3 0)
+		(size 2.2 1.2)
+		(drill oval 1.7 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(thermal_bridge_angle 45)
+		(uuid "21d813e5-eca8-47b5-93a2-7d1470d40bd1")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 2.2 1.2)
+		(drill oval 1.7 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(thermal_bridge_angle 45)
+		(uuid "c1ab87b3-927d-4967-800e-3fb58e809976")
+	)
+	(pad "3" thru_hole roundrect
+		(at 3 0)
+		(size 2.2 1.2)
+		(drill oval 1.7 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.3)
+		(thermal_bridge_angle 45)
+		(uuid "8615afe0-7e8d-4d64-86df-bfe4c1e3fae6")
+	)
+	(embedded_fonts no)
+	(model "C:/KiCad/library/SamacSys_Parts.3dshapes/SLW-105558-2A-N-D.stp"
+		(offset
+			(xyz 0 0 -4.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,363 @@
+(footprint "DSC6011JI3B-032K768T"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "2.5x2.0 mm Body [VLGA]_2025")
+	(tags "Crystal or Oscillator")
+	(property "Reference" "REF**"
+		(at 0 -2.275 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "7e03338d-bd51-470c-a39c-4aafc4c06770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "DSC6011JI3B-032K768"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "eafd7e91-b222-4446-bcaf-08efd81fe64e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC60xxB-Ultra-Small-Ultra-Low-Power-MEMS-Oscillator-DS20006133.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dae3bbba-4598-49f4-b400-de1785fcd5f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Standard Clock Oscillators MEMS Oscillator, Ultra Low Power, LVCMOS, -40C-85C, 50ppm, 2.5x2.0mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "51d789fd-e98e-4882-9fee-d64721377978")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.89"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "46b96480-09a7-4455-a36f-1bc56f8a07aa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f59d8f13-fcc8-4bd1-86f0-b4e4d5ba947a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b86e3c6-508a-46e2-80a1-7b74064fd38f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Microchip"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7049a15-9276-4f8b-8fe3-0ba8b97635c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "DSC6011JI1B-008.0000T"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91fa4c97-a834-42fe-b2d2-be2428574fd2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.45 -1.3)
+		(end -0.95 -1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a0cbfff-aea9-4cda-aeea-ea5a28f7e42e")
+	)
+	(fp_line
+		(start -1.45 -0.8)
+		(end -1.45 -1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6a77a82-0522-4884-91db-697d55ef5368")
+	)
+	(fp_line
+		(start -1.45 1.3)
+		(end -1.45 0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c9541121-5291-4acb-9c12-f51555ccb3c3")
+	)
+	(fp_line
+		(start -1.45 1.3)
+		(end -0.95 1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2b66bc3b-9ac2-42de-8de1-1dac8cc9eaae")
+	)
+	(fp_line
+		(start 1.45 -1.3)
+		(end 0.95 -1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "db2fed70-0039-467e-ab01-63d4653af616")
+	)
+	(fp_line
+		(start 1.45 -1.3)
+		(end 1.45 -0.8)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9b6ecdb8-2426-4968-83ba-b5601392fd3f")
+	)
+	(fp_line
+		(start 1.45 0.8)
+		(end 1.45 1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "adee3257-4952-4250-9840-cf6ca143e600")
+	)
+	(fp_line
+		(start 1.45 1.3)
+		(end 0.95 1.3)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f90541d9-64a0-4070-ad3a-64c04bcb1ab3")
+	)
+	(fp_circle
+		(center -0.94 1.71)
+		(end -0.79 1.71)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7562255a-e0a8-4123-8853-9ac1612236ce")
+	)
+	(fp_rect
+		(start -1 -0.84)
+		(end -0.65 -0.41)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "a8549a3e-e806-42ef-b848-d9763a85a7b1")
+	)
+	(fp_rect
+		(start -1 0.41)
+		(end -0.65 0.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "45beb1a4-d5d8-4fa8-9ba9-ef0a90081b62")
+	)
+	(fp_rect
+		(start 0.65 -0.84)
+		(end 1 -0.41)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "6c209d34-f020-4e76-a4fe-6cc4c8b8acae")
+	)
+	(fp_rect
+		(start 0.65 0.41)
+		(end 1 0.84)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Paste")
+		(uuid "08f06e28-33f5-49b8-bba9-2171b374b8d1")
+	)
+	(fp_rect
+		(start -1.55 -1.4)
+		(end 1.55 1.4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5288faaa-52a1-41f9-a654-e11957f8ef6e")
+	)
+	(fp_line
+		(start -1.25 -1)
+		(end -1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9bb32eb9-22c1-458b-a971-8b8c20144c4e")
+	)
+	(fp_line
+		(start -1.25 1)
+		(end 1.25 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7aa32894-d802-48ce-8ca5-c815f0fd34a1")
+	)
+	(fp_line
+		(start 1.25 -1)
+		(end -1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5eaccacc-fa59-4260-9d32-2ced9df5c4c2")
+	)
+	(fp_line
+		(start 1.25 1)
+		(end 1.25 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab33b4b0-3855-4c75-9928-213a5fc333be")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.01 -5.29 0)
+		(layer "F.Fab")
+		(uuid "2aac3860-67c3-4354-a8b3-b98a7ba30ec6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.825 0.625)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_paste_margin_ratio -1)
+		(uuid "ad1cacbe-5da0-4fd0-8e72-ee70d05865b7")
+	)
+	(pad "2" smd roundrect
+		(at 0.825 0.625)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_paste_margin_ratio -1)
+		(uuid "5ce1cde1-f504-46d1-aa98-bd7bed7bce58")
+	)
+	(pad "3" smd roundrect
+		(at 0.825 -0.625)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_paste_margin_ratio -1)
+		(uuid "c3e2eaa1-4862-4b54-abb4-f18f1f528324")
+	)
+	(pad "4" smd roundrect
+		(at -0.825 -0.625)
+		(size 0.7 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(solder_paste_margin_ratio -1)
+		(uuid "8c45ec55-709c-4ade-bde0-536f417cf0f3")
+	)
+	(embedded_fonts no)
+	(model "C:/KiCad/library/SamacSys_Parts.3dshapes/DSC6011JI3B-032K768T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

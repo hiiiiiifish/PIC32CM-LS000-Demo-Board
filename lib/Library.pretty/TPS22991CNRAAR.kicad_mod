@@ -1,0 +1,235 @@
+(footprint "TPS22991CNRAAR"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "RAA0004A_2025-1.1")
+	(tags "Integrated Circuit")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "b34b9051-1b22-4310-967f-5ebf28bc99b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "TPS22991CNRAAR"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5f061c14-7ac4-42f9-b9e4-09e5f6581b56")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.digikey.ph/en/products/detail/texas-instruments/TPS22991CNRAAR/26812478"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f093618a-5135-4705-91d0-92983b786de3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Power Switch/Driver 1:1 N-Channel 3A 4-UQFN-HR (0.85x0.75)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c0e3047-be5a-4c4e-b9a6-dd29f8942798")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Height" "0.6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "97f9f1c2-15dd-4cd2-aa56-a7467f4a557c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Part Number" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15bc2c49-3d25-47aa-b083-06d30aafc9d2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser Price/Stock" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aacb129c-2f6f-4077-992d-7823e8a15ae4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Name" "Texas Instruments"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90118a5d-184f-4814-bc47-31b7fa0e09e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer_Part_Number" "TPS22991CNRAAR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3a3a4a71-58a2-4c91-8ed7-317a5524b12a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center -0.67 -0.64)
+		(end -0.47 -0.64)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "afca8553-ed2e-4f9b-8b25-2b21f471b418")
+	)
+	(fp_rect
+		(start -0.65 -0.7)
+		(end 0.65 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "43c0bdb4-ba37-45aa-8a5f-f745fb4109fc")
+	)
+	(fp_line
+		(start -0.375 -0.425)
+		(end 0.375 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "39d2c057-7365-49b5-918d-7dde11dc3c60")
+	)
+	(fp_line
+		(start -0.375 0.425)
+		(end -0.375 -0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e366669a-e346-44b5-84e1-774bacb6c17d")
+	)
+	(fp_line
+		(start 0.375 -0.425)
+		(end 0.375 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2e3a257a-c8dc-4eb3-b9a1-24b9dbeba217")
+	)
+	(fp_line
+		(start 0.375 0.425)
+		(end -0.375 0.425)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4ce6b813-6e6d-4e64-bc11-4f21290ba3fd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e6428546-cc50-4dc4-b584-4c88606642a6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.3375 -0.2 90)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "e7c2ab50-032c-42ae-b7ee-c9309c245be6")
+	)
+	(pad "2" smd roundrect
+		(at -0.3375 0.2 90)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "7f97688a-c9a8-4f6a-9cd8-adcd2461318b")
+	)
+	(pad "3" smd roundrect
+		(at 0.3375 0.2 90)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "f859d5fe-ea3f-4f38-b638-bd78643d1ff8")
+	)
+	(pad "4" smd roundrect
+		(at 0.3375 -0.2 90)
+		(size 0.2 0.475)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2e41c50f-46e0-444f-8add-53060c2b6eb4")
+	)
+	(embedded_fonts no)
+	(model "C:\\KiCad\\library\\SamacSys_Parts.3dshapes\\TPS22991CNRAAR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 -180)
+		)
+	)
+)
